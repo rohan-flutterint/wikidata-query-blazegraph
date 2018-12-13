@@ -44,6 +44,7 @@ import com.bigdata.io.DataOutputBuffer;
 import com.bigdata.io.ShortPacker;
 import com.bigdata.io.compression.NoCompressor;
 import com.bigdata.io.compression.UnicodeHelper;
+import com.bigdata.rdf.internal.XSD;
 import com.bigdata.rdf.lexicon.ITermIndexCodes;
 
 /**
@@ -192,7 +193,7 @@ public class BigdataValueSerializer<V extends Value> {
             if (lit.getLanguage() != null)
                 return ITermIndexCodes.TERM_CODE_LCL;
 
-            if (lit.getDatatype() != null)
+            if (lit.getDatatype() != null && !XSD.STRING.equals(lit.getDatatype()))
                 return ITermIndexCodes.TERM_CODE_DTL;
 
             return ITermIndexCodes.TERM_CODE_LIT;
