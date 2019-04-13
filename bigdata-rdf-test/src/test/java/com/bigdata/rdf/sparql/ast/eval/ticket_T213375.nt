@@ -1,0 +1,5 @@
+<http://s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.com/d95dde070543a0e0115c8d5061fce6754bb82280> .
+<http://s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.com/d95dde070543a0e0115c8d5061fce6754bb82281> .
+<http://s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://test.com/d95dde070543a0e0115c8d5061fce6754bb82282> .
+<http://s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://test.com/d95dde070543a0e0115c8d5061fce6754bb82283> .
+<http://s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://test.com/d95dde070543a0e0115c8d5061fce6754bb82284> .
